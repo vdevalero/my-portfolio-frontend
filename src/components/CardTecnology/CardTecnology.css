@@ -1,0 +1,15 @@
+.card-Tecnology {
+    display: flex;
+    flex-direction: row;
+    background-color: #232323;
+    border-radius: 5px;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.card-Tecnology img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}

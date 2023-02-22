@@ -1,0 +1,25 @@
+.cardConfirm {
+    color: #000000;
+    background-color: rgb(120, 240, 240);
+    border: 1px solid #000000;
+    border-radius: 3px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.cardError {
+    color: #000000;
+    background-color: rgb(240, 120, 120);
+    border: 1px solid #000000;
+    border-radius: 3px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.cardError h2 {
+    text-align: center;
+}
+
+.cardError p {
+    margin: 10px;
+}

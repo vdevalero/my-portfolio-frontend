@@ -1,0 +1,15 @@
+.TecnologyAdmin-Grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14.5em, 1fr));
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.CardTechAdminFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(29, 42, 47);
+    border-radius: 3px;
+    padding: 5px;
+}

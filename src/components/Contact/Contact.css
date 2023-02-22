@@ -1,0 +1,72 @@
+.Contact {
+    margin-top: 30px;
+    background-color: rgb(29, 28, 33);
+    padding:35px 15px;
+    border-radius: 5px;
+}
+
+.Contact-Grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.Contact-Grid a {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    font-family: "Helvetica Neue";
+    height: 30px;
+}
+
+.Contact-Grid img {
+    width: 25px;
+    height: 25px;
+}
+.Contact-Grid p{
+    color: #333;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.mail {
+    background-color: rgb(255, 163, 163);
+}
+
+.mail:hover {
+    background-color: rgb(255, 43, 43);
+}
+
+.whatsapp {
+    background-color: rgb(183, 255, 190);
+    
+}
+
+
+.whatsapp:hover {
+    background-color: rgb(90, 252, 106);
+}
+
+.telegram {
+    background-color: rgb(155, 135, 255);
+}
+
+.telegram:hover {
+    background-color: rgb(120, 93, 255);
+}
+
+.cv {
+    background-color: rgb(255, 175, 114);
+}
+
+.cv:hover {
+    background-color: rgb(255, 111, 0);
+}

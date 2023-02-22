@@ -1,0 +1,82 @@
+/*INTRODUCCION*/
+.Introduction {
+    margin-bottom: 25px;
+}
+
+.Introduction p {
+    font-size: 20px;
+    color: rgb(224, 4, 220);
+}
+
+/*PRESENTACION TEXTO*/
+.Presentacion {
+    line-height: 1.4;
+    margin-bottom: 45px;
+    font-family: monospace;
+    /* background-color: #1c161d; */
+    background-color: #262429;
+    padding: 70px 20px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.Presentacion-p {
+    margin: 30px 0px;
+}
+
+/*-------------*/
+/*Grid Proyectos*/
+.Proyectos {
+    margin-bottom: 45px;
+}
+
+.Proyectos h2 {
+    margin-bottom: 15px
+}
+
+.Proyectos-Grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 15px;
+}
+
+/*--------------------------------------------*/
+/*button ver mas...*/
+.Mas-Proyectos {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+
+.Mas-Proyectos button {
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background-color: #fa24f6;
+    border: none;
+    cursor: pointer;
+}
+
+.Mas-Proyectos button:hover {
+    background-color: #cc00c9;
+}
+
+/*-------------*/
+/*Grid TECNOLOGY*/
+.Tecnology {
+    margin-bottom: 45px;
+}
+
+.Tecnology h2 {
+    margin-bottom: 15px
+}
+
+.Tecnology-Grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    row-gap: 20px;
+}
+
+/*--------------------------*/

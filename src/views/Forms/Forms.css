@@ -1,0 +1,58 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(11, 11, 11);
+    margin-top: 15px;
+}
+
+.Form option {
+    font-weight: bold
+}
+
+.Form label {
+    margin: 0px 10px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.Form input,
+select {
+    height: 35px;
+    margin: 0px 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid transparent;
+    border-radius: 3px;
+}
+
+
+.Form textarea {
+    height: 60px;
+    margin: 0px 10px;
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid transparent;
+}
+
+.Form input:focus,
+textarea:focus,
+select:focus {
+    border: 3px solid #d201b3;
+    outline: none;
+}
+
+.Form button {
+    height: 30px;
+    margin: 12px 10px;
+    border-radius: 3px;
+    border: 2px solid green;
+    color: black;
+    background-color: rgb(148, 214, 148);
+    font-size: 15px;
+    cursor: pointer;
+}

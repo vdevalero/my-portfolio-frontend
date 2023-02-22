@@ -1,0 +1,10 @@
+.CardTechAdminControls {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+.flex-modal{
+    display: flex;
+    gap: 20px;
+}

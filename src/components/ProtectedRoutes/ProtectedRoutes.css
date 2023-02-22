@@ -1,0 +1,27 @@
+.Dashboard_NavBar_Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0px;
+    background-color: rgb(43, 6, 41);
+    padding: 10px 0px;
+    align-items: flex-end;
+    border-radius: 3px;
+}
+
+.Dashboard_NavBar_Container button {
+    padding: 5px 10px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: rgb(226, 226, 226);
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.Dashboard_NavBar_Container button:hover {
+    background-color: rgb(185, 8, 212);
+}

@@ -1,0 +1,85 @@
+.card-Proyectos {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: #101010;
+    border: 1px solid #262626;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+    padding-bottom: 20px;
+}
+
+.card-Proyectos:hover {
+    transform: scale(1.04);
+}
+
+.card-Proyectos h3 {
+    color: #ff71fd;
+}
+
+.proyectos-img-container {
+    overflow: hidden;
+    width: 100% !important;
+    position: relative;
+}
+
+.StateContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: -4px;
+}
+
+.card-Proyectos img {
+    width: 100%;
+    height: 200px;
+    border-radius: 1px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-Proyectos p {
+    font-size: 13.8px;
+    height: auto;
+    margin: 5px;
+    font-family: monospace;
+}
+
+.Proyectos-Buttons-Flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 10px 5px;
+}
+
+.Proyectos-Buttons-Flex button {
+    width: 90px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.ver {
+    color: rgb(244, 148, 53);
+}
+
+.ver:hover {
+    background-color: rgb(129, 68, 7);
+}
+
+.repository {
+    color: rgb(96, 178, 255);
+}
+
+.repository:hover {
+    background-color: rgb(3, 51, 99);
+}

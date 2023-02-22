@@ -1,0 +1,9 @@
+.editCardControls {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgb(31, 1, 34);
+    border:2px solid rgb(73, 26, 76);
+    margin-bottom: 10px;
+    border-radius: 3px;
+}

@@ -1,0 +1,201 @@
+.Logo {
+    width: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    filter: invert(100%) sepia(100%) saturate(38%) hue-rotate(321deg) brightness(110%) contrast(110%);
+}
+
+.Logol {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 27px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 9px;
+}
+
+#de {
+    color: rgb(230, 0, 255)
+}
+
+#v {
+    color: rgb(0, 119, 255);
+}
+
+.Logo::hover {
+    filter: invert(52%) sepia(82%) saturate(6439%) hue-rotate(286deg) brightness(106%) contrast(111%);
+}
+
+.Link {
+    color: #fff;
+}
+
+.Hamburger {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.Nav-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0px;
+   
+}
+
+.Nav-Routes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2em;
+    align-items: center;
+
+}
+
+.Nav-Button {
+    display: none;
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.buttonNav {
+    background-color: transparent;
+    color: #fff;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 1px 3px;
+}
+
+.buttonNav:hover {
+    background-color: #c400da;
+}
+
+.Nav-Router-Div {
+    display: none;
+    position: absolute;
+    position: fixed;
+    width: 62%;
+    height: 101%;
+    background-color: rgb(43, 32, 42);
+    margin: -78px -10px;
+    text-align: center;
+    z-index: 9;
+    animation: openClose 0.2s;
+}
+
+@keyframes openClose {
+    0% {
+        margin-left: -250px
+    }
+}
+
+.Nav-Router-Head {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin: 0;
+    padding: 10px;
+}
+
+.Nav-Router-Container {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Nav-Router-Head button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+}
+
+.Nav-Router-route {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.Nav-Router-route button {
+    width: 100px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.Nav-Router-route a {
+    border-radius: 3px;
+}
+
+.Nav-Router-route a:hover {
+    background-color: #ff407d;
+}
+
+.Nav-Router-route button:hover {
+    background-color: #ff407d;
+}
+
+.LoginButtonSidebar button {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.cerrarSession {
+    border: 2px solid #ff407d;
+    background-color: #ff81a9;
+    border-radius: 5px;
+    color: rgb(100, 0, 0);
+    padding: 3px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.iniciarSession {
+    border: 2px solid rgb(0, 150, 0);
+    background-color: rgb(159, 255, 146);
+    color: rgb(7, 59, 0);
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .Nav-Container {
+        flex-direction: row-reverse;
+    }
+
+
+    .Nav-Router-Div {
+        display: grid;
+    }
+
+    .Nav-Router-route button {
+        font-size: 20px;
+    }
+
+    .Nav-Routes {
+        display: none;
+    }
+
+    .Nav-Button {
+        display: block;
+    }
+}

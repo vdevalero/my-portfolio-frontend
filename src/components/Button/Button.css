@@ -1,0 +1,47 @@
+.DeleteButton {
+    width: 55px;
+    height: 35px;
+    border-radius: 3px;
+    border: 2px solid rgb(255, 79, 96);
+    background-color: rgb(255, 142, 155);
+    cursor: pointer;
+    color: black;
+}
+
+.EditButton {
+    width: 55px;
+    height: 35px;
+    border: 2px solid rgb(255, 68, 0);
+    background-color: coral;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+}
+
+.AddButton {
+    border: 2px solid rgb(4, 138, 4);
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(99, 255, 79);
+    cursor: pointer;
+    color: black;
+}
+
+.CancelButton {
+    width: 55px;
+    height: 35px;
+    border: 2px solid rgb(255, 157, 0);
+    background-color: rgb(255, 232, 80);
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+}
+.CloseButton {
+    width: 55px;
+    height: 35px;
+    border: 2px solid rgb(162, 0, 255);
+    background-color: rgb(182, 80, 255);
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+}
