@@ -3,4 +3,5 @@ const local = `http://localhost:3000`;
 const LAN = `http://192.168.1.21:3000`;
 //url en produccion
 const PRODUCTION = `https://api.portfolio.vdevalero.com`;
-export const API_URL = PRODUCTION;
+const TEMP = "https://my-portfolio-backend-production.up.railway.app/";
+export const API_URL = TEMP;
