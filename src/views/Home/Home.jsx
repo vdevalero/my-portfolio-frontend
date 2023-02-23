@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { useGet } from "../../hooks/useGet.js";
 import { PUBLIC } from "../../api/urls.js";
 //Component Styled
-import { Contact } from "../../components/Contact/contact.jsx";
+import { Contact } from "../../components/Contact/Contact.jsx";
 import { CardProject } from "../../components/CardProject/CardProject.jsx";
 import { CardTecnology } from "../../components/CardTecnology/CardTecnology.jsx";
 
