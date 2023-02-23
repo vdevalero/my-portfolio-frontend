@@ -2,7 +2,7 @@ export const PUBLIC = {
   projectsOverview: "/projects/overview/",
   projects: "/projects/",
   technologies: "/technology/",
-  proximTechnology: "/proximTechnology/",
+  proximTechnology: "/proximTechnology",
   stateProject: "/stateProject/",
 };
 export const PRIVATE = {
