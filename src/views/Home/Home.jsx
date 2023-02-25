@@ -32,7 +32,7 @@ export function HomePage() {
           Soy desarrollador web full stack. Tengo 2 años de
           experiencia.Actualmente trabajando como tecnico informatico y
           estudiando grado superior de desarrollo de aplicaciones web (DAW).
-          Aqui os dejo algnos proyectos personales.
+          Aqui os dejo algunos proyectos personales.
         </p>
         <Contact />
       </div>
