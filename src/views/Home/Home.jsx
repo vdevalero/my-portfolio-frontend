@@ -26,13 +26,16 @@ export function HomePage() {
         <div className="Introduction">
           <h2>Hola, soy</h2>
           <h1>Victor Valero</h1>
-          <p>Full Stack Developer / Tecnico informatico</p>
+          <p>
+            <span id="dev-head">Full Stack Developer</span> /{" "}
+            <span id="tech-head">Tecnico en informatica</span>
+          </p>
         </div>
         <p className="Presentacion-p">
-          Soy desarrollador web full stack. Tengo 2 años de
-          experiencia.Actualmente trabajando como tecnico informatico y
-          estudiando grado superior de desarrollo de aplicaciones web (DAW).
-          Aqui os dejo algunos proyectos personales.
+          Soy desarrollador web full stack. Tengo 2 años de experiencia.
+          Actualmente trabajando como tecnico informatico y estudiando grado
+          superior de desarrollo de aplicaciones web (DAW). Aqui os dejo algunos
+          proyectos personales.
         </p>
         <Contact />
       </div>

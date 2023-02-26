@@ -22,7 +22,9 @@ export function CardProject({
         </div>
       </div>
 
-      <h3>{title}</h3>
+      <div className="card-info-head">
+        <h3>{title}</h3>
+      </div>
 
       <p>{description}</p>
       <div className="Proyectos-Buttons-Flex">

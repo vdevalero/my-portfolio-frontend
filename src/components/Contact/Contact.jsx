@@ -19,7 +19,7 @@ export function Contact() {
 
         <a
           className="whatsapp"
-          href="https://api.whatsapp.com/send?phone=692663552&text=Hola, vi tu portafolio y quiero conversar para trabajar en un proyecto"
+          href="https://api.whatsapp.com/send?phone=+34692663552&text=Hola, vi tu portafolio y quiero conversar para trabajar en un proyecto"
           target="_blank"
         >
           <img

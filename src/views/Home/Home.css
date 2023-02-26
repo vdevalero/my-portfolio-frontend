@@ -5,7 +5,23 @@
 
 .Introduction p {
     font-size: 20px;
-    color: rgb(224, 4, 220);
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.Introduction span {
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#dev-head {
+    background-color: #ea55e7;
+    color: #60015e;
+}
+
+#tech-head {
+    background-color: #a6adff;
+    color: #024bc0;
 }
 
 /*PRESENTACION TEXTO*/

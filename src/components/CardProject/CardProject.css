@@ -1,9 +1,8 @@
 .card-Proyectos {
     display: flex;
     flex-direction: column;
-    border-radius: 1px;
     align-items: center;
-    justify-content: space-between;
+    border-radius: 1px;
     border-radius: 5px;
     background-color: #101010;
     border: 1px solid #262626;
@@ -16,8 +15,15 @@
     transform: scale(1.04);
 }
 
-.card-Proyectos h3 {
+.card-info-head {
+    margin: 5px;
+    width: 100%;
+}
+
+.card-info-head h3 {
     color: #ff71fd;
+    margin-left: 5px;
+    font-size: 20px;
 }
 
 .proyectos-img-container {
