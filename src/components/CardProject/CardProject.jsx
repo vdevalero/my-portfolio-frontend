@@ -20,12 +20,10 @@ export function CardProject({
             {name}
           </StateProject>
         </div>
+        <div className="card-info-head">
+          <h3>{title}</h3>
+        </div>
       </div>
-
-      <div className="card-info-head">
-        <h3>{title}</h3>
-      </div>
-
       <p>{description}</p>
       <div className="Proyectos-Buttons-Flex">
         <a href={uriProject} target="_blank">
