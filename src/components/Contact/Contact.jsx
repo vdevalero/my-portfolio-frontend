@@ -33,13 +33,17 @@ export function Contact() {
           <img src="https://telegram.org/img/t_logo.png" alt="" />
           <p>Telegram</p>
         </a>
-        <Link className="cv" to="/cv">
+        <a
+          className="cv"
+          href="../../../public/Victor_Valero_CV_Dev.pdf"
+          download="Victor_Valero_CV_DEV.pdf"
+        >
           <img
             src="https://cdn-icons-png.flaticon.com/512/909/909314.png"
             alt=""
           />
           <p>CV Vitae</p>
-        </Link>
+        </a>
       </div>
     </div>
   );
