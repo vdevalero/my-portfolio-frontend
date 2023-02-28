@@ -35,7 +35,7 @@ export function Contact() {
         </a>
         <a
           className="cv"
-          href="../../../public/Victor_Valero_CV_Dev.pdf"
+          href="/Victor_Valero_CV_Dev.pdf"
           download="Victor_Valero_CV_DEV.pdf"
         >
           <img
